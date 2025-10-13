@@ -7529,12 +7529,12 @@ position: absolute;
   padding: 10px 0px ;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 575px) {
+/* @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 575px) {
   .vl-header-area {
     padding-bottom: 24px;
     padding-top: 24px;
   }
-}
+} */
 .vl-header-area-3 {
   position: relative;
   z-index: 9;
