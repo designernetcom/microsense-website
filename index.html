@@ -221,14 +221,14 @@
 
                                  </ul>
                               </li>
-                              <li class="has-dropdown">
+                           
                               <li><a href="quality.html">Quality</a></li>
 
-                              </li>
-                              <li class="has-dropdown">
+                            
+                           
                               <li><a href="client.html">Clients</a></li>
 
-                              </li>
+                            
                               <li class="has-dropdown">
                                  <a href="gallery.html">Gallery</a>
                                  <ul class="sub-menu">
@@ -243,10 +243,10 @@
 
 
                               </li>
-                              <li class="has-dropdown">
+                           
                               <li><a href="contact.html">Contact us</a></li>
 
-                              </li>
+                              
                            </ul>
                         </nav>
                      </div>
@@ -305,25 +305,37 @@
    <!--================= Header section End =================-->
    <main>
       <!--================= Banner section start =================-->
-      <div class="swiper vl-banner-1 swiper-scale-effect">
-         <div class="swiper-container">
-            <div class="swiper-wrapper fix" style="margin-top: 50px ;">
-              <img src="./Microsense Banner 01.jpg" style="width: 100vw;" alt="">
+    <div class="swiper vl-banner-1 swiper-scale-effect">
+  <div class="swiper-wrapper" style="margin-top: 50px;">
+    <div class="swiper-slide">
+      <img src="./Microsense Banner 01.jpg" alt="Microsense Banner" class="banner-img">
+    </div>
+  </div>
+</div>
 
-            </div>
+<style>
+  .vl-banner-1 {
+    width: 100%;
+    height: auto;
+  }
 
-            <!-- navigation arrows -->
-            <div class="container">
-               <div class="vl-test-slider-arrow">
-                  <div class="vl-swiper-test-button-prev vl-swiper-test-button"><i class="fa-regular fa-angle-left"></i>
-                  </div>
-                  <div class="vl-swiper-test-button-next vl-swiper-test-button"><i
-                        class="fa-regular fa-angle-right"></i></div>
-               </div>
-            </div>
+  .banner-img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    display: block;
+  }
 
-         </div>
-      </div>
+  @media (max-width: 768px) {
+    .swiper-wrapper {
+      margin-top: 130px !important; /* smaller spacing on mobile */
+    }
+    .banner-img {
+      height: auto; /* make sure image resizes naturally */
+    }
+  }
+</style>
+
       <!--================= Banner section End =================-->
 
      
