@@ -7103,7 +7103,7 @@ p {
 /*  6.1 Footer Style 1
 /*----------------------------------------*/
 .vl-footer-styl2e {
-  padding: 30px 40px;
+  padding: 0 40px;
 }
 @media (max-width: 575px) {
   .vl-footer-styl2e {
@@ -11706,5 +11706,15 @@ marquee {
   margin-top: 30px;
 }
 .vl-footer .row {
-      background: var(--vkl-bg-bg-2);
+  background: var(--vkl-bg-bg-2);
+}
+.vl-footer-logo p {
+  padding-top: 15px;
+  text-align: justify;
+}
+.vl-footer .footer-row {
+  padding-top: 30px;
+}
+.vl-icon-list li {
+  padding-top: 10px;
 }
