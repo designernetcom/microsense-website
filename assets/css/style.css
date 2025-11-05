@@ -11718,3 +11718,10 @@ marquee {
 .vl-icon-list li {
   padding-top: 10px;
 }
+.img img {
+  display: flex;
+  margin: auto;
+}
+.img {
+  margin-top: 20px;
+}
